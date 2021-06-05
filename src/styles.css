@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&family=Roboto+Slab&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Noto+Sans+JP:wght@100&family=Roboto+Slab&display=swap");
+
+* {
+  margin: 0;
+}
+body {
+  background: linear-gradient(to right, #ffffb3, #ffe6e6);
+  font-family: "Roboto Slab", serif;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+header {
+  font-family: "Dancing Script", cursive;
+  padding: 1rem;
+  background: linear-gradient(to left, #ffffb3, #ffe6e6);
+  border-bottom-left-radius: 2rem;
+  box-shadow: 0px 15px 30px 1px rgba(214, 192, 125, 0.76);
+  border: none;
+}
+header h1 {
+  font-size: 4rem;
+  font-family: "Pacifico", cursive;
+}
+header h2 {
+  margin: 0.4rem;
+  font-size: 2.5rem;
+}
+.btn-container {
+  text-align: center;
+  padding: 0.4rem;
+}
+button {
+  font-size: 1.3rem;
+  margin: 0.5rem;
+  padding: 0.7rem;
+  cursor: pointer;
+  box-shadow: 0px 5px 10px rgba(214, 192, 125, 0.76);
+  cursor: pointer;
+  border-radius: 100px;
+  border: none;
+}
+button:hover {
+  box-shadow: 0px 15px 25px -5px rgb(214, 192, 125);
+  transform: scale(1.05);
+}
+button:active {
+  box-shadow: 0px 4px 8px rgba(214, 192, 125, 0.76);
+  transform: scale(0.98);
+}
+.outer-container {
+  display: block;
+  max-width: 800px;
+  padding: 0.5rem;
+  margin: auto;
+  text-align: center;
+}
+.container {
+  margin: 1.4rem;
+  padding: 1rem;
+  box-shadow: 0 15px 30px 1px rgba(214, 192, 125, 0.945);
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+}
+.desc {
+  font-size: 1.2rem;
+  text-align: justify;
+  line-height: 1.4rem;
+  padding: 0.5rem;
+}
+.location {
+  margin: 0.5rem;
+}
+.container img {
+  width: 80%;
+  margin: 0.5rem;
+}
+@media (max-width: 800px) {
+  header h1 {
+    font-size: 3rem;
+  }
+  header h2 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 500px) {
+  header h1 {
+    font-size: 2.5rem;
+  }
+  header h2 {
+    margin: 0.4rem;
+    font-size: 1.8rem;
+  }
+}
