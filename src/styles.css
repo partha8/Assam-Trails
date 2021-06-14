@@ -33,7 +33,7 @@ header h2 {
   text-align: center;
   padding: 0.4rem;
 }
-button {
+.categories {
   background-color: white;
   font-size: 1.3rem;
   margin: 0.5rem;
@@ -44,11 +44,11 @@ button {
   border-radius: 100px;
   border: none;
 }
-button:hover {
+.categories:hover {
   box-shadow: 0px 15px 25px -5px rgb(214, 192, 125);
   transform: scale(1.05);
 }
-button:active {
+.categories:active {
   box-shadow: 0px 4px 8px rgba(214, 192, 125, 0.76);
   transform: scale(0.98);
 }
@@ -71,6 +71,7 @@ button:active {
   text-align: justify;
   line-height: 1.4rem;
   padding: 0.5rem;
+  
 }
 .location {
   margin: 0.5rem;
@@ -95,4 +96,11 @@ button:active {
     margin: 0.4rem;
     font-size: 1.8rem;
   }
+}
+.readmore-btn {
+  font-size: 1rem;
+  background: transparent;
+  cursor: pointer;
+  border-color: transparent;
+  color: rgb(255, 97, 6);
 }
