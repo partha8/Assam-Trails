@@ -17,14 +17,7 @@ export default function Items({ selectedOption }) {
             <img src={item.img} alt={item.name} />
             <p className="desc">
               {" "}
-              {readMore ? item.desc : `${item.desc.substring(0, 200)}...`}
-              <button
-                className="readmore-btn"
-                onClick={() => setReadMore(!readMore)}
-              >
-                {" "}
-                {!readMore ? "Read More" : "Show less"}
-              </button>
+              { item.desc }
             </p>
           </div>
         );
