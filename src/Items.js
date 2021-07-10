@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import dataBase from "./data";
 
 export default function Items({ selectedOption }) {
-  const [readMore, setReadMore] = useState(false);
 
   return (
     <div className="outer-container">
