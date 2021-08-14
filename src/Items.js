@@ -13,6 +13,7 @@ export default function Items({ selectedOption }) {
               {" "}
               <strong>Location</strong>: {item.location}{" "}
             </p>
+            <p style={{fontWeight:'700'}} > Rating: {item.rating} </p>
             <img src={item.img} alt={item.name} />
             <p className="desc">
               {" "}
