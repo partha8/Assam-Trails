@@ -4,6 +4,7 @@ import dataBase from "./data.js";
 import Buttons from './Buttons';
 import Items from './Items'
 
+//minor change
 export default function App() {
   const dataArray = Object.keys(dataBase);
   const [selectedOption, setSelectedOption] = useState("Wildlife");
